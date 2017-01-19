@@ -59,4 +59,22 @@ section
 }
 
 
+@media all and (max-width: 1024px)
+{
+	#banniere
+	{
+		display: none;
+	}
 
+	section
+	{
+		margin-left: 2%;
+		width: 80%;
+		height: 30%;
+	}
+
+	#centre
+	{
+		flex-direction : column;
+	}
+}
